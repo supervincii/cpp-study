@@ -1,0 +1,8 @@
+#+begin_example
+1) std::cout << "/*";
+2) std::cout << "*/";
+3) std::cout << /* "/" /;
+4) std::cout << /* "" "/*" */;
+#+end_example
+
+In the examples above, all are legal besides #3 as the comment was not closed.

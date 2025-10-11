@@ -1,0 +1,9 @@
+#+begin_src cpp
+  int sum = 0;
+  for (int i = -100; i <=100; ++i)
+    sum += i;
+#+end_src
+
+The loop adds the value of ~i~ to ~sum~ and is incremented by 1 everytime.
+
+The final value of ~sum~ is ~0~.
