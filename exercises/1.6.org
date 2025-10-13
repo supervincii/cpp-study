@@ -1,9 +1,0 @@
-#+begin_src cpp
-  std::cout << "The sum of " << v1;
-  << " and " << v2;
-  << " is " << v1 + v2 << std::endl;
-#+end_src
-
-The code above is not legal as we are not using the output operator (~<<~) correctly. It cannot be called without ~std::cout~.
-
-Those lines should start with ~std::cout~.

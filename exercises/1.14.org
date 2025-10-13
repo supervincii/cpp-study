@@ -1,3 +1,0 @@
-~for~ has a scope where we can define temporary variables and used inside the loop.
-
-~while~ is for situations where the loop time is unknown before the loop.
